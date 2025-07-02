@@ -32,19 +32,15 @@ h1{
 }
 ul{
     margin-left: 2rem;
-    color: gold;
+    color: whitesmoke;
 }
 li a,
 li a:visited{
-    color: gold;
+    color: whitesmoke;
 }
 li a:hover,
 li a:focus{
     color: whitesmoke;
-}
-summary{
-    color: rgb(255, 72, 72);
-    font-weight: bold;
 }
 table{
     border: 1px solid white;
@@ -56,23 +52,22 @@ td{
     text-align: center;
     margin: 2rem;
 }
-a {
-    color: #47acff;
-    font-weight: bold;
-}
-a:hover{
-    color: white;
-}
 footer{
     padding-bottom: 3rem;
 }
 aside,summary:hover{
     color: whitesmoke;
 }
-img{
+.img{
     border-radius: 1%;
     border: 3px double white;
     box-shadow: 5px 5px 5px black;
     width: 96%;
     height: auto;
+}
+.top{
+    display: block;
+    border: 3px double lightblue;
+    margin-left: 0.3rem;
+    border-radius: 2rem;
 }
